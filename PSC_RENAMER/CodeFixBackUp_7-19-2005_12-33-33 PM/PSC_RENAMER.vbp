@@ -1,0 +1,43 @@
+Type=Exe
+Form=frmMain.frm
+Reference=*\G{00020430-0000-0000-C000-000000000046}#2.0#0#C:\WINDOWS\system32\STDOLE2.TLB#OLE Automation
+Reference=*\G{00025E01-0000-0000-C000-000000000046}#4.0#0#C:\Program Files\Common Files\Microsoft Shared\DAO\DAO350.DLL#Microsoft DAO 3.5 Object Library
+Module=VBUnzBas; vbunzip.bas
+ResFile32="PSC_RENAMER.res"
+Module=SomeNiceStuff; SomeNiceStuff.bas
+IconForm="frmMain"
+Startup="frmMain"
+HelpFile=""
+Title="PSC_RENAMER"
+ExeName32="PSC_RENAMER.exe"
+Command32=""
+Name="PSC_RENAMER"
+HelpContextID="0"
+Description="Rename ZIPs downloaded from PSC based on Project Title"
+CompatibleMode="0"
+MajorVer=1
+MinorVer=0
+RevisionVer=5
+AutoIncrementVer=1
+ServerSupportFiles=0
+VersionComments="Rename ZIPs downloaded from PSC based on Project Title. Based on Flyhole by Crock. Find Flyhole at http://www.Planet-Source-Code.com/vb/scripts/ShowCode.asp?txtCodeId=15059&lngWId=1"
+VersionCompanyName="AP Software"
+CompilationType=0
+OptimizationType=0
+FavorPentiumPro(tm)=0
+CodeViewDebugInfo=0
+NoAliasing=0
+BoundsCheck=0
+OverflowCheck=0
+FlPointCheck=0
+FDIVCheck=0
+UnroundedFP=0
+StartMode=0
+Unattended=0
+Retained=0
+ThreadPerObject=0
+MaxNumberOfThreads=1
+DebugStartupOption=0
+
+[MS Transaction Server]
+AutoRefresh=1
